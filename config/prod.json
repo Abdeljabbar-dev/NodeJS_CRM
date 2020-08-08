@@ -1,0 +1,19 @@
+{
+  "email": "",
+  "password": "",
+  "test": "",
+  "common": {
+    "base_url": "localhost:5010",
+    "port": 5010
+  },
+  "jwt": {
+    "secret": "crm-lafactory-backend-2019",
+    "issuer": "crm-lafactory",
+    "audience": "demoaudience"
+  },
+  "database": {
+    "dev": {
+      "url": "mongodb://localhost:27017/crm-lafactory-backend-prod-2019"
+    }
+  }
+}
